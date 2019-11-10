@@ -5,16 +5,22 @@ import { ScrollView } from "react-native";
 import { Button } from "react-native-elements";
 import {
   DrawerItems,
-  NavigationInjectedProps,
+  // NavigationInjectedProps,
   SafeAreaView,
-  withNavigation
+  withNavigation,
+  // DrawerNavigatorConfig,
+  DrawerItemsProps
 } from "react-navigation";
 
-class BurgerMenu extends PureComponent<NavigationInjectedProps> {
+class BurgerMenu extends PureComponent<DrawerItemsProps> {
+
   render() {
+    // let newDraw = this.
     return (
       <SafeAreaView style={styles.container} forceInset={{ top: "always", horizontal: "never" }}>
         <ScrollView>
+          {/* {this.props.navigation.navigate} */}
+          {/* <DrawerItems {...this.props}/> */}
           <DrawerItems {...this.props}/>
         </ScrollView>
         <Button
@@ -30,4 +36,5 @@ class BurgerMenu extends PureComponent<NavigationInjectedProps> {
   }
 }
 
-export default withNavigation(BurgerMenu);
+export default BurgerMenu
+// export default withNavigation(BurgerMenu);

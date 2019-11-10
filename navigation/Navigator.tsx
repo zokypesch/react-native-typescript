@@ -80,8 +80,8 @@ SettingsStack.navigationOptions = {
 
 const MainNavigator = Platform.select({
   ios: createBottomTabNavigator({ HomeStack, SettingsStack }),
-  // android: createDrawerNavigator({ HomeStack, SettingsStack }, { contentComponent:  BurgerMenu})
-  android: createDrawerNavigator({ HomeStack, SettingsStack })
+  android: createDrawerNavigator({ HomeStack, SettingsStack }, { contentComponent:  BurgerMenu})
+  // android: createDrawerNavigator({ HomeStack, SettingsStack })
 });
 
 const LoginStack = createStackNavigator({ LoginScreen, PasswordResetScreen });

@@ -29,7 +29,8 @@ class HomeScreen extends Component<NavigationScreenProps> {
       <View style={styles.container}>
         <Text>This is the HomeScreen.</Text>
         <Button title={detailStrings.detailTitle} onPress={() => navigate("DetailScreen")} />
-        <Button title={optionStrings.optionsTitle} onPress={() => navigate("OptionsScreen")} />
+        {/* example below to passing params */}
+        <Button title={optionStrings.optionsTitle} onPress={() => navigate("OptionsScreen", { text: 'Hi!' })} /> 
       </View>
     );
   }

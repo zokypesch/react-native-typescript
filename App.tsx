@@ -35,7 +35,6 @@ import store, {persistor} from './store'
 import { PersistGate } from "redux-persist/es/integration/react";
 import { Provider } from 'react-redux'
 import Navigator from "./navigation/Navigator";
-
 /**
  * Use any valid `name` property from eva icons (e.g `github`, or `heart-outline`)
  * https://akveo.github.io/eva-icons
@@ -51,7 +50,10 @@ function testFunction(obj: any) : void {
 const App = (): React.ReactFragment => (
   <PersistGate persistor={persistor}>
     <Provider store={store}>
-      <Navigator/>
+      <ApplicationProvider mapping={mapping} theme={theme}>
+        <Navigator/>
+      </ApplicationProvider>
+      
       {/* <React.Fragment>
         <IconRegistry icons={EvaIconsPack}/>
         <ApplicationProvider mapping={mapping} theme={theme}>

@@ -9,7 +9,9 @@ class LoginScreen extends Component<NavigationScreenProps> {
   static navigationOptions = {
     header: null
   };
+
   render() {
+    strings.setLanguage("de"); // for change language
     return (
       <View style={styles.container}>
         <Text>This is the LoginScreen.</Text>

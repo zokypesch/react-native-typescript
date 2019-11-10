@@ -55,6 +55,12 @@ https://github.com/rodrigoelp/reactnative-typescript-exercise-14/tree/49ed00d1d6
 https://fettblog.eu/typescript-react/components/
 # navigator
 https://medium.com/@jan.hesters/building-a-react-native-app-with-complex-navigation-using-react-navigation-85a479308f52
+https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/react-navigation/index.d.ts -> kalau mau bongkar navigation type systemnya
+https://dev.to/andreasbergqvist/react-navigation-with-typescript-29ka
+# react hooks
+https://dev.to/camilomejia/fetch-data-with-react-hooks-and-typescript-390c
+https://fettblog.eu/typescript-react/hooks/
+https://medium.com/@thehappybug/using-react-context-in-a-typescript-app-c4ef7504c858
 
 # operational command
 npm react-native run-android <- runnging android
