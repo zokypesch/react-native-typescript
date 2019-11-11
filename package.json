@@ -16,6 +16,7 @@
     "react": "16.8.6",
     "react-native": "0.60.5",
     "react-native-elements": "^1.2.0",
+    "react-native-firebase": "^5.5.5",
     "react-native-localization": "^2.1.6",
     "react-native-svg": "^9.9.4",
     "react-native-ui-kitten": "^4.2.0",

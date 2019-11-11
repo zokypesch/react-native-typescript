@@ -77,6 +77,32 @@ useMemo only recalculates a value if the elements in its dependency array change
 
 useEffect is called after each render, if elements in its dependency array have changed or the array is left out. If the array is empty, it will only be run once on the initial mount (and unmount if you return a cleanup function).
 
+# fcm
+https://medium.com/@katharinep/firebase-notification-integration-in-react-native-0-60-3a8d6c8d56ff -> penting 1
+https://www.djamware.com/post/5d7773f05d8cdc057b603e65/react-native-firebase-cloud-messaging-fcm-push-notification
+https://medium.com/@anum.amin/react-native-integrating-push-notifications-using-fcm-349fff071591 -> penting ke 3
+https://www.ryadel.com/en/react-native-push-notifications-setup-firebase-2/ -> penting ke 2
+https://stackoverflow.com/questions/14536595/how-to-download-google-play-services-in-an-android-emulator
+https://basarat.gitbooks.io/typescript/docs/async-await.html
+```
+yang berubah di android
+android/build.gradle -> classpath("com.android.tools.build:gradle:3.4.1", "com.google.gms:google-services:4.2.0")
+android/setting.gradle -> diperhatikan saja
+android/app/build.gradle -> {
+    dependencies {
+        // ..... below
+        implementation "com.google.android.gms:play-services-base:17.0.0"
+        implementation "com.google.firebase:firebase-core:17.0.1"
+        implementation "com.google.firebase:firebase-messaging:19.0.0"
+        implementation 'me.leolin:ShortcutBadger:1.1.21@aar'
+    }
+    // below dependencies
+    apply plugin: 'com.google.gms.google-services'
+}
+check AndroidManifest.xml -> banyak yang berubah
+check MainApplication.java -> lumanyun
+```
+
 # operational command
 npm react-native run-android <- runnging android
 emulator -avd newafd <- running emulator
