@@ -35,6 +35,7 @@ import store, {persistor} from './store'
 import { PersistGate } from "redux-persist/es/integration/react";
 import { Provider } from 'react-redux'
 import Navigator from "./navigation/Navigator";
+import {AppContextInterface, AppContextProvider} from './hooks/Example/Context' // context hook
 /**
  * Use any valid `name` property from eva icons (e.g `github`, or `heart-outline`)
  * https://akveo.github.io/eva-icons
@@ -42,6 +43,12 @@ import Navigator from "./navigation/Navigator";
 const HeartIcon = (style: ImageStyle): React.ReactElement<ImageProps> => (
   <Icon {...style} name='heart'/>
 );
+
+const sampleAppContext: AppContextInterface = {
+  name: 'Using React Context in a Typescript App',
+  author: 'thehappybug',
+  url: 'http://www.example.com'
+};
 
 function testFunction(obj: any) : void {
   console.log(obj, "hello world")
@@ -51,7 +58,10 @@ const App = (): React.ReactFragment => (
   <PersistGate persistor={persistor}>
     <Provider store={store}>
       <ApplicationProvider mapping={mapping} theme={theme}>
-        <Navigator/>
+        {/* pasang disini supaya contextnya kebaca kesemua, nah perlu juga panggil consumer, contohnya ada di optionscreen */}
+        {/* <AppContextProvider value={sampleAppContext}> */}
+          <Navigator/>
+        {/* </AppContextProvider> */}
       </ApplicationProvider>
       
       {/* <React.Fragment>

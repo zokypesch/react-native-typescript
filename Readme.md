@@ -61,6 +61,17 @@ https://dev.to/andreasbergqvist/react-navigation-with-typescript-29ka
 https://dev.to/camilomejia/fetch-data-with-react-hooks-and-typescript-390c
 https://fettblog.eu/typescript-react/hooks/
 https://medium.com/@thehappybug/using-react-context-in-a-typescript-app-c4ef7504c858
+https://dev.to/hirodeath/similar-redux-architecture-example-powered-by-react-hooks-api-hdg
+https://dev.to/camilomejia/fetch-data-with-react-hooks-and-typescript-390c
+https://medium.com/@thehappybug/using-react-context-in-a-typescript-app-c4ef7504c858
+https://gist.github.com/thehappybug/88342c122cfb1df9f14c9a10fb4926e4
+https://stackoverflow.com/questions/56347639/react-useeffect-vs-usememo-vs-usestate
+
+useState is causing a re-render on the call of the setState method (second element in the array returned). It does not have any dependencies like useMemo or useEffect.
+
+useMemo only recalculates a value if the elements in its dependency array change (if there are no dependencies - i.e. the array is empty, it will recalculate only once). If the array is left out, it will recalculate on every render. Calling the function does not cause a re-render. Also it runs during the render of the component and not before.
+
+useEffect is called after each render, if elements in its dependency array have changed or the array is left out. If the array is empty, it will only be run once on the initial mount (and unmount if you return a cleanup function).
 
 # operational command
 npm react-native run-android <- runnging android
