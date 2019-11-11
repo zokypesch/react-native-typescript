@@ -29,7 +29,6 @@ npm install --save react-native-localization
 
 # docs
 https://medium.com/@andreee/bagaimana-cara-membuat-state-di-redux-mu-abadi-menggunakan-redux-persist-946fae62b7b5
-https://dev.to/andreasbergqvist/react-navigation-with-typescript-29ka
 https://redux.js.org/recipes/usage-with-typescript
 https://github.com/Lemoncode/redux-sagas-typescript-by-example/blob/master/README.md
 https://github.com/archiewald/todo-list-react-ts
@@ -41,6 +40,10 @@ android help
 https://developer.android.com/studio/run/emulator-commandline
 
 https://facebook.github.io/react-native/docs/debugging
+http://www.typescriptlang.org/docs/handbook/generics.html#hello-world-of-generics
+https://medium.com/@wittydeveloper/typescript-generics-and-overloads-999679d121cf
+https://medium.com/@rossbulat/typescript-generics-explained-15c6493b510f
+https://github.com/rossbulat/ts-api-service-manager
 
 # saga & redux
 https://github.com/Lemoncode/redux-sagas-typescript-by-example
@@ -63,9 +66,10 @@ https://fettblog.eu/typescript-react/hooks/
 https://medium.com/@thehappybug/using-react-context-in-a-typescript-app-c4ef7504c858
 https://dev.to/hirodeath/similar-redux-architecture-example-powered-by-react-hooks-api-hdg
 https://dev.to/camilomejia/fetch-data-with-react-hooks-and-typescript-390c
-https://medium.com/@thehappybug/using-react-context-in-a-typescript-app-c4ef7504c858
 https://gist.github.com/thehappybug/88342c122cfb1df9f14c9a10fb4926e4
 https://stackoverflow.com/questions/56347639/react-useeffect-vs-usememo-vs-usestate
+https://blog.hackages.io/react-hooks-usecallback-and-usememo-8d5bb2b67231
+https://github.com/react-navigation/hooks
 
 useState is causing a re-render on the call of the setState method (second element in the array returned). It does not have any dependencies like useMemo or useEffect.
 

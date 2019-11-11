@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "312649195414",
+    "firebase_url": "https://trip-on-halal.firebaseio.com",
+    "project_id": "trip-on-halal",
+    "storage_bucket": "trip-on-halal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312649195414:android:6d5eb7c8e81b8e0f7187b7",
+        "android_client_info": {
+          "package_name": "com.fecticketing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312649195414-tpjf8l2bma87p7907nk1pcu0gqj739hf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZSTPUtSj5Mw4al5_TB6znRHmaf-MT7VI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312649195414-tpjf8l2bma87p7907nk1pcu0gqj739hf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "312649195414-v6tk0kc3d6eheq2e6do33md5h3vjmp9k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.trip-on-halal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312649195414:android:a6549d4107348284",
+        "android_client_info": {
+          "package_name": "com.trip_on_halal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312649195414-ppim984c2336ucot98nup8imai0hpm08.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trip_on_halal",
+            "certificate_hash": "ae2ac78c913573bd5511317da6b6a63cce24cd83"
+          }
+        },
+        {
+          "client_id": "312649195414-tpjf8l2bma87p7907nk1pcu0gqj739hf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZSTPUtSj5Mw4al5_TB6znRHmaf-MT7VI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312649195414-tpjf8l2bma87p7907nk1pcu0gqj739hf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "312649195414-v6tk0kc3d6eheq2e6do33md5h3vjmp9k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.trip-on-halal"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
