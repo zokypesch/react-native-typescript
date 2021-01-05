@@ -12,7 +12,7 @@
     "@eva-design/eva": "^1.2.0",
     "@react-native-community/async-storage": "github:react-native-community/async-storage",
     "@ui-kitten/eva-icons": "^4.2.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "react": "16.8.6",
     "react-native": "0.60.5",
     "react-native-elements": "^1.2.0",
